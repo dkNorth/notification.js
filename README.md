@@ -13,24 +13,24 @@ JS based notifications that can be assigned to html elements
 
 notification(element, modal, message, corner, type)
 
-element: 
-Type: string
-Defines the custom element you want the notification assigned to
+element: <br>
+Type: string<br>
+Defines the custom element you want the notification assigned to<br><br>
 
 modal:<br>
-Type: boolean
-Defines if it's a permanent notification(true) or a timed one(false)
+Type: boolean<br>
+Defines if it's a permanent notification(true) or a timed one(false)<br><br>
 
-message:
-Type: string
-Defines the string you want displayed
+message:<br>
+Type: string<br>
+Defines the string you want displayed<br><br>
 
-corner:
-Type: string
-("topright", "topleft", "bottomright", "bottomleft")
-Assigns the notification to the specific corner
+corner:<br>
+Type: string<br>
+("topright", "topleft", "bottomright", "bottomleft")<br>
+Assigns the notification to the specific corner<br><br>
 
-type:
-Type: string
-("Info","Warning","Alert")
-Defines the background color of the notification
+type:<br>
+Type: string<br>
+("Info","Warning","Alert")<br>
+Defines the background color of the notification<br><br>
