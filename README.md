@@ -1,13 +1,15 @@
 # notification.js
 JS based notifications that can be assigned to html elements
 
-INSTALLATION
+# INSTALLATION
 
 1. Add notification.css (<link href="notification.css" rel="stylesheet"/>)
 2. Add notification.js  (<script src="notification.js"></script>)
 3. register a custom message to an element of your choice in your own script file 
 
-SYNTAX
+
+
+# SYNTAX
 
 notification(element, modal, message, corner, type)
 
