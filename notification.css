@@ -1,0 +1,56 @@
+.show{
+    visibility: visible !important;
+    transition: 0.5s;
+}
+
+.notification{
+
+    min-width: 250px;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+}
+.alert{
+    background-color: #f1aaaa;
+}
+.info{
+    background-color: #a9e0fc;
+}
+.warning{
+    background-color:#ffefa1;
+}
+.topright{
+    right:100px;
+    top: 100px
+}
+.topleft{
+    left: 100px;
+    top: 100px
+}
+.bottomright{
+    right: 100px;
+    bottom: 100px
+}
+.bottomleft{
+    left: 100px;
+    bottom: 100px;
+}
+.center{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 100px auto 100px auto;
+    min-height: 10em;
+    width: 90%;
+}
+
+.xbutton{
+    cursor:pointer;
+    font-size:30px;
+    float:right;
+}
