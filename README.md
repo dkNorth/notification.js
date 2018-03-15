@@ -17,7 +17,7 @@ element:
 Type: string
 Defines the custom element you want the notification assigned to
 
-modal:
+modal:<br>
 Type: boolean
 Defines if it's a permanent notification(true) or a timed one(false)
 
